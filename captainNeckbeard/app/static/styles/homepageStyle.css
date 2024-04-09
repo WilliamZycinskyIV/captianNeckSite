@@ -1,0 +1,46 @@
+
+body{
+    background-color: #135D66;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid #8B4513;
+    margin-bottom: 0;
+    background-color: #005C7A;
+    
+}
+
+#navBrand{
+    font-family: 'IM Fell English', serif;
+
+}
+
+.navItem{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 1em 1em;
+
+}
+
+.navLink{
+    font-family: 'Merriweather', serif;
+}
+
+.navItem a{
+    text-decoration: none;
+    color: #fbf2c4;
+
+}
+
+
+#navSlogan{
+    float:right;
+}
+/* END Nav Bar Section */

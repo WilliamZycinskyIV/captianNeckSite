@@ -1,1 +1,34 @@
-<h1> Hello World </h1>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="static/styles/homepageStyle.css">
+
+
+<nav class="navbar">
+
+    <div id="navBrand" class="navItem">
+        <a class='navLink' href="{% url 'home' %}">Captain KneckBeard</a>
+    </div>
+    
+    <div class="navItem">
+        <a class='navLink' href="{% url 'home' %}">Library</a>
+    </div>
+    
+    <div class="navItem">
+        <a class='navLink' href="{% url 'home' %}">Shop</a>
+    </div>
+
+    <div class="navItem">
+        <a class='navLink' href="{% url 'home' %}">Donate</a>
+    </div>
+
+    
+    
+    <div id="navSlogan" class="navItem">
+        For you, my Kitten Waifus.
+    </div>
+
+</nav>
+
+
+<content>
+
+</content>
