@@ -1,15 +1,17 @@
+:root {
+    --mainBlack: #1a1a1d;
+    --mainGrey: #4e4e50;
+    --rDark: #6f2232;
+    --rMid: #950740;
+    --rBright: #c3073f;
 
-body{
-    background-color: #135D66;
-    margin: 0;
-}
-
+  }
+/* END Nav Bar Section */
 .navbar{
     width: 100%;
     height: 50px;
-    border-bottom: 3px solid #8B4513;
+    border-bottom: 3px solid var(--mainGrey);
     margin-bottom: 0;
-    background-color: #005C7A;
     
 }
 
@@ -35,7 +37,7 @@ body{
 
 .navItem a{
     text-decoration: none;
-    color: #fbf2c4;
+    color: var(--rBright);
 
 }
 
@@ -44,3 +46,43 @@ body{
     float:right;
 }
 /* END Nav Bar Section */
+
+/* START CONTENT BACKGROUND SECTION */
+
+#content{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: var(--mainBlack);
+    margin: 0;
+    max-width: 100%;
+}
+
+#backGroundImage{
+    width: 100%;
+    position: fixed;
+}
+
+.majorSection{
+    position: absolute;
+    width:80%;
+    height: auto;
+    margin: 50px 10%;
+
+
+    /* For Troulble Shooting */
+    /* border: 2px solid #c3073f;  */
+}
+
+/* END CONTENT BACKGROUND SECTION */
+
+/* START THIS WEEK COMIC SECTION */
+    
+
+
+/* END THIS WEEK COMIC SECTION */
+
+
+
