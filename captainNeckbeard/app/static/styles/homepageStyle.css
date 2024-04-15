@@ -14,11 +14,16 @@
 /* START Nav Bar Section */
 
 .navbar{
+    z-index: 10;
     width: 100%;
     height: 50px;
     border-bottom: 3px solid var(--mainGrey);
     margin-bottom: 0;
     position: fixed;
+    background-color: var(--mainBlack);
+
+    /* Ensures the that navbar's Items do not cascade */
+    min-width:1000px;
     
 }
 
@@ -59,6 +64,7 @@
 #content{
     width: 100%;
     height: auto;
+    position: absolute;
 }
 
 body{
@@ -69,15 +75,14 @@ body{
 
 #backGroundImage{
     width: 100%;
-    position: fixed;
+    position: absolute;
 }
 
 .majorSection{
-    position: absolute;
+    position: relative;
     width:80%;
-    height: atuo;
+    height: auto;
     margin: 50px 10%;
-
 
     /* For Troulble Shooting */
     /* border: .5px solid #c3073f;  */
@@ -89,6 +94,8 @@ body{
 
 #comicOfTheWeek{
     margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #comicOfTheWeekTextSection{
@@ -103,13 +110,16 @@ body{
 }
 
 #comicOfTheWeekTitle{
-    margin-top: 20px;
+    margin-top: 40px;
     height: auto;
     width: 100%;
     
-    font-size: 50px;
-    color: var(--rBright);
+    font-size: 65px;
+    color: var(--rMid);
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--rMid); */
 
+    letter-spacing: 3px;
 
     /* For Troulble Shooting */
     /* border: .5px solid #c3073f;  */
@@ -118,7 +128,6 @@ body{
 #comicOfTheWeekAbout{
     font-size: 25px;
     color: var(--rBright);
-
 
 }
 
@@ -142,5 +151,16 @@ body{
 
 /* END THIS WEEK COMIC SECTION */
 
+
+
+/* START ABOUT SECTION */
+
+#about{
+    height: auto;
+    
+
+}
+
+/* END ABOUT SECTION */
 
 
